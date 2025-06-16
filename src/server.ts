@@ -8,7 +8,6 @@ const server = new McpServer({
   version: "1.0.0",
 });
 
-// Get Chuck Norris joke tool
 const getChuckJoke = server.tool(
   "get-chuck-joke",
   "Get a random Chuck Norris joke",
